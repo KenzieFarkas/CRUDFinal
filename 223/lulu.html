@@ -1,0 +1,109 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	" http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd ">
+	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en " lang="en ">
+<head>
+<meta http-equiv="Content-Type " content="text/html;charset=utf-8 " />
+<title>Order Form</title>
+
+</head>
+
+<link rel="stylesheet" type="text/css" href="styles1.css" />
+
+<center>
+
+<body style="background-color: #808080">
+
+<table border="0" width="50%">
+	<tr>
+		<th colspan="2"></th>
+		<td><img src="lululemonlogo.png" width="250" height="250" alt="Lululogo" usemap="#moneymap"></td>
+		<td align= center><img src="order.JPG" width="640" height="250" alt="Lululogo"</td>
+	</tr>
+
+	<map name="moneymap" id="moneymap">
+<area shape="circle" coords="125,128,93" href="homelulu.html" alt="home" />
+
+<table class="menu">
+	<tr>
+		<td class="menuword"><a href="homelulu.html">Home</a><td>
+		<td class="menupipe">|</td>
+		<td class="menuword"><a href="menlulu.html">Men's Apparel</a><td>
+		<td class="menupipe">|</td>
+		<td class="menuword"><a href="womenlulu.html">Women's Apperal</a><td>
+		<td class="menupipe">|</td>
+		<td class="menuwordselect"><a href="accountlulu.html">Order</a><td>
+		<td class="menupipe">|</td>
+		<td class="menuword"><a href="inspirationlulu.html">Inspiration</a><td>
+		<td class="menupipe">|</td>
+		<td class="menuword"><a href="htb.html">Here To Be</a><td>
+	</tr>
+</table>
+
+</center>
+
+<form action='create.php' method = 'post'>
+
+<fieldset><legend>Shipping Information</legend>
+	<p>Last Name: <input name="lastname" type="text" size="25" />
+	First Name:  <input name="firstname" type="text" size="25" />
+</fieldset>
+
+<fieldset><legend>Your Order</legend>
+<table>
+	<tr>
+		<th>Women's Leggings</th>
+			<td class="colspec"><br />Leggings (select type, size, and color): 
+				<br />
+				
+					<label>Type:
+						<input list="leggings" name="leggingtype" /></label>
+							<datalist id="leggings">
+								<option value="Flow & Go tight">
+  								<option value="High Times Pant">
+  								<option value="Align Pant II">
+							</datalist>
+				<br />
+					<label>Size:
+						<input list="size" name="size_id" /></label>
+							<datalist id="size">
+								<option value="2">
+  								<option value="4">
+  								<option value="6">
+  								<option value="8">
+  								<option value="10">
+  								<option value="12">
+							</datalist>
+				
+				<br /><label>Color:
+						<input list="color" name="color_id" /></label>
+							<datalist id="color">
+ 				 				<option value="Maroon">
+  								<option value="Black">
+  								<option value="Olive Green">
+  								<option value="Navy">
+  								<option value="Gray">
+							</datalist>
+			</td>
+	</tr>
+	<tr>
+		<th>Find your order here by typing in your Last Name</th>
+		<td>
+			<input name="lastname" type="text" size="25" />
+		</td>
+		
+	</tr>
+	
+</table>
+
+</fieldset>
+
+<p><input type="submit" value="Submit" />
+<input type="Show Data" value="Reset" />
+
+<br />Thank you for your order.</p>
+
+</form>
+<center>
+<p><a href="#top"><span style="font-size: small">To top</span></a></p>
