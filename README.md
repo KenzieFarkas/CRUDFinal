@@ -7,7 +7,7 @@ Sometimes people don't like when you can see what they have ordered online and h
 
 Behind the Scenes: 
 
-The types of code I used were php and html, I chose these two becuase they seemed to be the most effiecent and I had a properly working HTML file from a previous project. A majority of the code from this project was taken from online sources on cloud 9 and edited in order to fit the needs of my tables and databases. 
+The types of code I used were php, html, and SQL. I chose these two becuase they seemed to be the most effiecent and I had a properly working HTML file from a previous project. A majority of the code from this project was taken from online sources on cloud 9 and edited in order to fit the needs of my tables and databases. 
 
 About the Author: 
 
